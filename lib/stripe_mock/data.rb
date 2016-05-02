@@ -114,7 +114,7 @@ module StripeMock
         type: "Visa",
         brand: "Visa",
         exp_month: 4,
-        exp_year: 2016,
+        exp_year: Date.today.year + 3,
         fingerprint: "wXWJT135mEK107G8",
         customer: "test_cus_default",
         country: "US",
